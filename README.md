@@ -8,7 +8,7 @@ A portfolio displaying my current CSS level.
 
 Wolfgang Leithold
 
-##Link
+## Link
 
 
 ## License
