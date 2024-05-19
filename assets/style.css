@@ -1,0 +1,127 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #d4ce46;
+    color: #000000;
+}
+
+body {
+    background-color: #b1b1b1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.first-ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, sans-serif;
+}
+
+.about-me, .work, .contact-me, .resume {
+    margin-left: 50px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-family: 'Times New Roman', sans-serif;  
+}
+
+h2 {
+    font-size: 60px;
+    background-color: 	#4aba91;
+    border-radius: 5px;
+    width: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rock-paper-scissors { 
+    scale: 50%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+
+.study-guide {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+p {
+    margin: auto;
+    background-color: antiquewhite;
+    margin-top: -50px;
+    border-radius: 4px;
+    width: 30%;
+}
+
+.second-ul  {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, sans-serif;
+    list-style-type: none;
+    margin: auto;
+    
+
+       
+}
+
+.second-ul li {
+    margin-left: 10px;
+}
+
+.work {
+    margin-top: 300px
+}
+
+.contact-me {
+    margin-bottom: 200px;
+}
+
+divA, divB, divC, divD {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    scale: 150%;
+
+}
+
+.resume-img {
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: auto;
+    border-radius: 50px;
+    
+    
+}
+
+/* 
+@media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  } */
+  
+
