@@ -105,9 +105,13 @@ divA, divB, divC, divD {
     margin: auto;
     border-radius: 50px;
     
-    
 }
 
+.horiseon {
+    width: 10px;
+    max-height: 200px;
+
+}
 /* 
 @media screen and (max-width: 768px) {
     header, main {
