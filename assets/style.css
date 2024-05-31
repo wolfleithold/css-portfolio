@@ -111,3 +111,12 @@ divA, divB, divC, divD {
     width: 10px;
     max-height: 200px;
 }
+
+.about-me h2 {
+    margin-bottom: 20px; /* Add margin at the bottom of the h2 */
+  }
+  
+  .about-me divA {
+    padding-top: 20px; /* Add padding at the top of the divA */
+  }
+  
