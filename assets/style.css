@@ -5,10 +5,15 @@ header {
     padding: 1%;
     background-color: #d4ce46;
     color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 body {
     background-color: #b1b1b1;
+    padding-top: 60px; 
 }
 
 ul {
@@ -32,7 +37,7 @@ ul {
 
 h2 {
     font-size: 60px;
-    background-color: 	#4aba91;
+    background-color: #4aba91;
     border-radius: 5px;
     width: fit-content;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -72,9 +77,6 @@ p {
     font-family: 'Courier New', Courier, sans-serif;
     list-style-type: none;
     margin: auto;
-    
-
-       
 }
 
 .second-ul li {
@@ -82,7 +84,7 @@ p {
 }
 
 .work {
-    margin-top: 300px
+    margin-top: 300px;
 }
 
 .contact-me {
@@ -96,7 +98,6 @@ divA, divB, divC, divD {
     margin-right: 50px;
     margin-bottom: 100px;
     scale: 150%;
-
 }
 
 .resume-img {
@@ -104,28 +105,9 @@ divA, divB, divC, divD {
     width: fit-content;
     margin: auto;
     border-radius: 50px;
-    
 }
 
 .horiseon {
     width: 10px;
     max-height: 200px;
-
 }
-/* 
-@media screen and (max-width: 768px) {
-    header, main {
-      flex-direction: column;
-    }
-  
-    section {
-      padding-right: 0;
-    }
-  
-    aside {
-      width: 100%;
-      text-align: center;
-    }
-  } */
-  
-
